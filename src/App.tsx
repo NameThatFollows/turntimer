@@ -54,7 +54,7 @@ function App() {
         setEndTime(new Date().getTime() + (timerLength) * 1000);
         setWaiting(false);
       }, 700);
-    }, 400);
+    }, 500);
   };
 
   const tick = () => {
@@ -83,7 +83,7 @@ function App() {
       if (appState !== AppState.Timer && appState !== AppState.GameOver) {
         return;
       }
-      if (event.code === "Enter" || event.code === "NumpadEnter") {
+      if ((event.code === "Enter" || event.code === "NumpadEnter") && appState !== AppState.GameOver) {
         setNewEndTime();
       } else if (event.code === "Space" && appState === AppState.Timer) {
         if (waiting) {
