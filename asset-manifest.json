@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/turntimer/static/css/main.317fded9.css",
-    "main.js": "/turntimer/static/js/main.e2cc9e3a.js",
+    "main.js": "/turntimer/static/js/main.f334f918.js",
     "static/js/787.ec474e36.chunk.js": "/turntimer/static/js/787.ec474e36.chunk.js",
     "index.html": "/turntimer/index.html",
     "main.317fded9.css.map": "/turntimer/static/css/main.317fded9.css.map",
-    "main.e2cc9e3a.js.map": "/turntimer/static/js/main.e2cc9e3a.js.map",
+    "main.f334f918.js.map": "/turntimer/static/js/main.f334f918.js.map",
     "787.ec474e36.chunk.js.map": "/turntimer/static/js/787.ec474e36.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.317fded9.css",
-    "static/js/main.e2cc9e3a.js"
+    "static/js/main.f334f918.js"
   ]
 }
